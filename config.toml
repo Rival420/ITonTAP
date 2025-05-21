@@ -1,0 +1,5 @@
+baseURL   = "https://www.itontap.tech/"
+languageCode = "en-us"
+title     = "ITonTAP Blog"
+theme     = "ananke"
+
