@@ -6,8 +6,6 @@ description: "Discover IT on TAP, your go-to podcast for the latest in tech news
 tags: ["podcast", "tech", "security", "news", "Microsoft 365"]
 ---
 
-![IT on TAP Podcast](https://open.spotify.com/show/5WUFuhnPIE6jAKdkyqzSaT?si=56e347d7925d4114)
-
 ## Welcome to IT on TAP!
 
 Are you passionate about technology, cybersecurity, and the ever-evolving world of IT? Then you'll love [IT on TAP](https://open.spotify.com/show/5WUFuhnPIE6jAKdkyqzSaT?si=56e347d7925d4114) — your go-to podcast for the latest in tech news, hosted by Pieter, an I.T. security expert, and Nick, a Microsoft 365 specialist.
