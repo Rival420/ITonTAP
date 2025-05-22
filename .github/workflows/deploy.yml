@@ -18,9 +18,6 @@ jobs:
         with:
           hugo-version: 'latest'  # or pin a version
 
-      - name: Build site
-        run: hugo --gc --minify
-
       - name: Deploy to VPS
         uses: appleboy/ssh-action@v0.1.8
         with:
@@ -31,3 +28,6 @@ jobs:
           source: "public/"
           target: "/opt/itontap-blog/public"
           rm: true
+
+      - name: Build site
+        run: hugo --gc --minify
