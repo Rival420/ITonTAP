@@ -29,5 +29,8 @@ jobs:
           target: "/opt/itontap-blog/public"
           rm: true
 
+      - name: git pull
+        run: cd /opt/itontap-blog && git pull
+
       - name: Build site
         run: hugo --gc --minify
