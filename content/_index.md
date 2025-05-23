@@ -3,7 +3,7 @@ title: "Welcome to IT on TAP"
 description: "Your hub for tech news, security insights, and the IT on TAP podcast. Choose a section below to get started."
 ---
 
-Explore our two main sections below:
+Explore our sections below:
 
 <div class="flex flex-wrap justify-center items-stretch mv4">
   <a href="/podcast/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
