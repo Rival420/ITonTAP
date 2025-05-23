@@ -1,6 +1,6 @@
 ---
 title: "E3 - Cyber October: Hacks, Attacks and Super 8 Chats"
-date: 2024-10-15T00:00:00+00:00
+date: 2024-11-01T00:00:00+00:00
 description: "Pieter and Nick dive into the latest cybersecurity breaches, local admin access, and best practices for managing access in today's digital landscape."
 tags: ["podcast", "cybersecurity", "breaches", "local admin", "security", "best practices"]
 draft: false
