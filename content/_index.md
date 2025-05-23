@@ -4,13 +4,14 @@ description: "Your hub for tech news, security insights, and the IT on TAP podca
 ---
 
 Explore our two main sections below:
+
 <div class="flex flex-wrap justify-center items-stretch mv4">
 
 [🎙️ Podcast  
-<span class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</span>]( /podcast/ )
+<span class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</span>](/podcast/){ .br3 .pa4 .ma3 .tc .grow .w5 .bg-blue .white .b .shadow-5 .no-underline }
 
 [📝 Blog  
-<span class="db f6 fw4 mt2">Latest posts on IT, security, Microsoft 365, and more.</span>]( /posts/ )
+<span class="db f6 fw4 mt2">Latest posts on IT, security, Microsoft 365, and more.</span>](/posts/){ .br3 .pa4 .ma3 .tc .grow .w5 .bg-hot-pink .white .b .shadow-5 .no-underline }
 
 </div>
 
