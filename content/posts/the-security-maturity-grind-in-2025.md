@@ -8,8 +8,9 @@ draft = false
 
 
 ## Security is an arms race
-In the world of Cyber Security, we are always one step behind as defenders, and this makes total sense. In the past I've learned you have 2 kinds of people, ones that will do first, think later and then do again or the ones that think first, then do and then think again. In both cases is a reflective moment. 
-In a perfect world, where no crime nor malicious intent exists, we wouldn't need security. Let's look at this from another perspective.
+In the world of Cyber Security, we are always one step behind as defenders, and this makes total sense. In the past I've learned you have 2 kinds of people, ones that will do first, think later and then do again or the ones that think first, then do and then think again. In both cases there is a reflective moment. 
+In a perfect world, where no crime nor malicious intent exists, we wouldn't need security. 
+Let's look at this from another perspective.
 
 ## brief history of IT yesterday and tomorrow
 The automotive industry is a nice comparison to make. When the first cars were released, they didn't have seatbelts, ABS, lane assist, parking sensors, etc. and it wasn't "needed". There were no regulations around drinking and driving, speeding, or even a driving license. project this in today's world and it's completely crazy. Yes, we have updated the rules because we have more cars on the road and the cars can go faster and are a more vital part of life whereas before, it was more of a luxurious item to have. 
