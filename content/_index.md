@@ -11,7 +11,7 @@ Explore our sections below:
     <div class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</div>
   </a>
   <a href="/posts/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
-    📝 Off The Tap
+    📝 Blog
     <div class="db f6 fw4 mt2">Latest brain dumps and random rants/posts about Cyber Security.</div>
   </a>
 </div>
