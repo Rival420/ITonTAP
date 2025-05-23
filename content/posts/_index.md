@@ -1,8 +1,7 @@
 ---
-title: "Blog Posts"
-description: "This place will contain random blog posts about cyber security stuff"
+title: "Off The Tap"
+description: "A stream of thoughts, brewed from frustration and fascination."
 ---
 
-# Off The Tap
 
-A stream of thoughts, brewed from frustration and fascination.
+
