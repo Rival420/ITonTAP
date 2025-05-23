@@ -13,3 +13,10 @@ theme     = "ananke"
     url = "/posts/"
     weight = 2
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.parser]
+      attribute = true
+
