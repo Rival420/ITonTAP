@@ -1,7 +1,9 @@
 +++
 title = 'The Security Maturity Grind in 2025'
 date = 2024-05-23T12:00:00Z
-draft = true
+description: "Level up your security maturity using open source tools"
+tags: ["rant", "CyberSecurity", "opensource", "pingcastle", "Bloodhound", "LockSmith", "Maester"]
+draft = false
 +++
 
 
