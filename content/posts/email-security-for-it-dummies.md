@@ -6,7 +6,7 @@ draft = false
 
 # E-Mail Security For IT Dummies
 
-## E-mail Security
+## What is E-mail Security ?
 
 Since Normies in the IT space are encountering email more and more these days and they are encountering issues, I wanted to create a blog post that explains Email Security in a human way, so that not every issue is redirected to IT Security but people can determine themselves what is wrong and "how" to solve it.
 
