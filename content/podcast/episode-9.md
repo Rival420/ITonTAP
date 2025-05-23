@@ -20,9 +20,9 @@ Grab a drink, pull up a chair, and let's get into it.
 
 ---
 
-## 🍺 Featured Beer: The Circus IPA
+## 🍺 Featured Beer: Circus Session IPA - Presented by the Juggler
 
-This episode features The Circus IPA—a perfect companion for a wild ride through the world of vulnerabilities and surprises.
+This episode features [Circus Session IPA - Presented by the Juggler](https://untappd.com/b/circus-brouwerij-circus-session-ipa-presented-by-the-juggler/5484939)—a perfect companion for a wild ride through the world of vulnerabilities and surprises.
 
 ---
 
