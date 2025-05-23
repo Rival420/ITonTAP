@@ -3,15 +3,14 @@ title: "Welcome to IT on TAP"
 description: "Your hub for tech news, security insights, and the IT on TAP podcast. Choose a section below to get started."
 ---
 
-Hey Jeremy! Explore our two main sections below:
-
+Hey Jeremy! 
 <div class="flex flex-wrap justify-center items-stretch mv4">
 
 [🎙️ Podcast  
-<span class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</span>]( /podcast/ ){ .br3 .shadow-5 .pa4 .ma3 .tc .grow .w5 .bg-gradient-blue .white .b .tracked }
+<span class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</span>]( /podcast/ )
 
 [📝 Blog  
-<span class="db f6 fw4 mt2">Latest posts on IT, security, Microsoft 365, and more.</span>]( /posts/ ){ .br3 .shadow-5 .pa4 .ma3 .tc .grow .w5 .bg-gradient-pink .white .b .tracked }
+<span class="db f6 fw4 mt2">Latest posts on IT, security, Microsoft 365, and more.</span>]( /posts/ )
 
 </div>
 
