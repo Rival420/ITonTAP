@@ -1,6 +1,6 @@
 baseURL   = "https://www.itontap.tech/"
 languageCode = "en-us"
-title     = "ITonTAP Blog"
+title     = "ITonTAP Home"
 theme     = "ananke"
 
 [menu]
