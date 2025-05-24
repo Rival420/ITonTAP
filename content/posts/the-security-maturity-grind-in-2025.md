@@ -42,18 +42,19 @@ Some good tools are:
 
 ### PingCastle
 Pingcastle is a tool founded by Vincent Letoux, bought and maintained by Netwrix since 2024 and has been used by so many companies to check the risk level of their AD. it enumerates a lot of Active Directory and is basically a configuration compliancy checker against some recommendations from Microsoft and other standards. It's super simple to run, you just need an AD connected server and administrator permissions on here.
+In terms of AD permissions, an AD user with read permissions is enough.
 It will look for stale objects, privileged accounts, trusts and other anomalies in the environment and comes up with a risk score of 100. 100 being high risk and 0 being low risk. you will want to get your AD into a state of <10 / 100. Once you are there it is recommended to run Pingcastle on a frequent basis and use it as a baseline for your security posture.
 
 ### Bloodhound
-Bloodhound is another open-source tool focusing on Active Directory (And Azure Active Directory) but more focused on path analysis. It will enumerate all the objects in AD and look for Dangerous persmissions by certain identities, if there is an obvious path from a normal unprivileged user to a Domain Administrator, Bloodhound is the tool to find it. run it and check for obvious paths, if you're not paying for an enterprise license it is recommended to use some github scripts on top of this database to find the paths quickly.
+Bloodhound is another open-source tool focusing on Active Directory (And Azure Active Directory) but more focused on path analysis. It will enumerate all the objects in AD and look for Dangerous persmissions by certain identities, if there is an obvious path from a normal unprivileged user to a Domain Administrator, Bloodhound is the tool to find it. Run it and check for obvious paths, if you're not paying for an enterprise license it is recommended to use some github scripts on top of this database to find the paths quickly.
 
 ### Locksmith
 ADCS, or Active Directory Certificate Services have been around for a long time but only found vulnerable since a few years. it's in use for almost all companies and it's a kind of thing that once it's been set up and it's working, it gets forgotten. Also, lots of guides on how to set up these things are not with security in mind. even the official guides for some products are telling you to configure the certificates in vulnerable states. 
-run the Locksmith tool right now in Mode 1, you will see all your certificate templates and you will see that some of them are vulnerable. try to get it to zero and when that's done. you can now run this tool once in a while but most importantly, when new certificates templates are being created.
+Run the Locksmith tool right now in Mode 1, you will see all your certificate templates and you will see that some of them are vulnerable. try to get it to zero and when that's done. you can now run this tool once in a while but most importantly, when new certificates templates are being created.
 
 ### Maester
-This one focuses on the cloud rather than the other 3 focusing on premise environments. it's very new but let's be honest, the cloud is pretty new as well. we are still developing most of it and so security is still being created to. Maester.dev is a good way to start. it is a powershell framework built upon the Pester framework and you can create your own tests for your own environment. it is up to you to identify your crown jewels and write some tests for it. But surely you can start with some out of the box tests to get some basics right. 
-same as with Locksmith and Pingcastle, just work down the list and complete as many items as possible.
+This one focuses on the cloud rather than the other 3 focusing on premise environments. It's very new but let's be honest, the cloud is pretty new as well. we are still developing most of it and so security is still being created too. Maester.dev is a good way to start. It is a powershell framework built upon the Pester framework and you can create your own tests for your own environment. It is up to you to identify your crown jewels and write some tests for it. But surely you can start with the out of the box tests to get some basics right. 
+Same as with Locksmith and Pingcastle, just work down the list and complete as many items as possible.
 
 ### Combining the tools in a open-source Framework
 Automating and combining reports from these tools can result in a comprehensive way to safeguard the security posture of your infrastructure. My goal is to create this framework.
