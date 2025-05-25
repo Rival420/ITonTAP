@@ -22,6 +22,7 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
 
 <div align="center">
   <a href="https://app.hackthebox.com/public/teams/overview/5787" target="_blank">
+    <img src="https://app.hackthebox.com/public/teams/overview/5787">
   </a>
 </div>
 
