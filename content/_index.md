@@ -14,6 +14,10 @@ Explore our sections below:
     📝 Blog
     <div class="db f6 fw4 mt2">Latest brain dumps and random rants/posts about Cyber Security.</div>
   </a>
+    <a href="/hackthebox/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
+    📝 HackTheBox
+    <div class="db f6 fw4 mt2">Content created based on HTB.</div>
+  </a>
 </div>
 
 <style>
