@@ -6,15 +6,15 @@ description: "Your hub for tech news, security insights, and the IT on TAP podca
 Explore our sections below:
 
 <div class="flex flex-wrap justify-center items-stretch mv4">
-  <a href="/podcast/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
+  <a href="/podcast/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
     🎙️ Podcast
     <div class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</div>
   </a>
-  <a href="/posts/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
+  <a href="/posts/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
     📝 Blog
     <div class="db f6 fw4 mt2">Latest brain dumps and random rants/posts about Cyber Security.</div>
   </a>
-    <a href="/hackthebox/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
+  <a href="/hackthebox/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
     📝 HackTheBox
     <div class="db f6 fw4 mt2">Content created based on HTB.</div>
   </a>
@@ -29,5 +29,13 @@ Explore our sections below:
 }
 .shadow-5 {
   box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1.5px 4px rgba(0,0,0,0.08);
+}
+/* Fix for small screens: make cards take full width below 480px */
+@media (max-width: 480px) {
+  .w5 {
+    width: 90vw !important;
+    min-width: unset !important;
+    max-width: 100vw !important;
+  }
 }
 </style>
