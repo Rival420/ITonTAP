@@ -5,16 +5,16 @@ description: "Your hub for tech news, security insights, and the IT on TAP podca
 
 Explore our sections below:
 
-<div class="flex flex-wrap justify-center items-stretch my-8">
-  <a href="/podcast/" class="br3 pa4 ma3 tc grow bg-white dark-gray b shadow-5 no-underline ba b--moon-gray w-64 flex flex-col justify-between transition-transform duration-200 hover:scale-105">
+<div class="flex flex-wrap justify-center items-stretch mv4">
+  <a href="/podcast/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
     🎙️ Podcast
     <div class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</div>
   </a>
-  <a href="/posts/" class="br3 pa4 ma3 tc grow bg-white dark-gray b shadow-5 no-underline ba b--moon-gray w-64 flex flex-col justify-between transition-transform duration-200 hover:scale-105">
+  <a href="/posts/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
     📝 Blog
     <div class="db f6 fw4 mt2">Latest brain dumps and random rants/posts about Cyber Security.</div>
   </a>
-  <a href="/hackthebox/" class="br3 pa4 ma3 tc grow bg-white dark-gray b shadow-5 no-underline ba b--moon-gray w-64 flex flex-col justify-between transition-transform duration-200 hover:scale-105">
+    <a href="/hackthebox/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: block;">
     📝 HackTheBox
     <div class="db f6 fw4 mt2">Content created based on HTB.</div>
   </a>
