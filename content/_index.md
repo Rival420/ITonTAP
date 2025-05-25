@@ -5,37 +5,65 @@ description: "Your hub for tech news, security insights, and the IT on TAP podca
 
 Explore our sections below:
 
-<div class="flex flex-wrap justify-center items-stretch mv4">
-  <a href="/podcast/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
+<div class="cards-grid">
+  <a href="/podcast/" class="card-link">
     🎙️ Podcast
-    <div class="db f6 fw4 mt2">Tech news, security stories, and relaxed conversations with Pieter and Nick.</div>
+    <div class="card-desc">Tech news, security stories, and relaxed conversations with Pieter and Nick.</div>
   </a>
-  <a href="/posts/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
+  <a href="/posts/" class="card-link">
     📝 Blog
-    <div class="db f6 fw4 mt2">Latest brain dumps and random rants/posts about Cyber Security.</div>
+    <div class="card-desc">Latest brain dumps and random rants/posts about Cyber Security.</div>
   </a>
-  <a href="/hackthebox/" class="br3 pa4 ma3 tc grow w5 bg-white dark-gray b shadow-5 no-underline ba b--moon-gray" style="display: inline-flex; flex-direction: column; justify-content: space-between;">
+  <a href="/hackthebox/" class="card-link">
     📝 HackTheBox
-    <div class="db f6 fw4 mt2">Content created based on HTB.</div>
+    <div class="card-desc">Content created based on HTB.</div>
   </a>
 </div>
 
 <style>
-.bg-gradient-blue {
-  background: linear-gradient(90deg, #007cf0 0%, #00dfd8 100%) !important;
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); /* Card min width, expand as needed */
+  gap: 2rem;
+  justify-content: center;
+  padding: 2rem 0;
+  max-width: 1100px;
+  margin: 0 auto;
 }
-.bg-gradient-pink {
-  background: linear-gradient(90deg, #ff512f 0%, #dd2476 100%) !important;
-}
-.shadow-5 {
+.card-link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  background: #fff;
+  color: #222;
+  border-radius: 1rem;
+  border: 1px solid #e5e7eb;
   box-shadow: 0 8px 32px rgba(0,0,0,0.12), 0 1.5px 4px rgba(0,0,0,0.08);
+  padding: 2rem;
+  text-decoration: none;
+  font-weight: bold;
+  transition: transform 0.15s, box-shadow 0.15s;
+  min-width: 260px;
+  max-width: 320px;
+  margin: 0 auto;
 }
-/* Fix for small screens: make cards take full width below 480px */
-@media (max-width: 480px) {
-  .w5 {
-    width: 90vw !important;
-    min-width: unset !important;
-    max-width: 100vw !important;
+.card-link:hover {
+  transform: scale(1.045);
+  box-shadow: 0 12px 36px rgba(0,0,0,0.18), 0 1.5px 4px rgba(0,0,0,0.11);
+}
+.card-desc {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 0.5rem;
+  color: #444;
+}
+/* Mobile: make cards take 95vw for comfort */
+@media (max-width: 500px) {
+  .card-link {
+    min-width: 85vw;
+    max-width: 99vw;
+    padding: 1.2rem;
   }
 }
-</style>
