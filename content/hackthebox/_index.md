@@ -21,8 +21,7 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
 ### 🛡️ Team TrackHackers
 
 <div align="center">
-  <a href="https://app.hackthebox.com/teams/7382" target="_blank">
-    <img src="https://www.hackthebox.com/badge/team/image/7382" alt="Hack The Box Team Badge">
+  <a href="https://app.hackthebox.com/public/teams/overview/5787" target="_blank">
   </a>
 </div>
 
