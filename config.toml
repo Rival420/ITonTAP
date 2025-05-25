@@ -12,6 +12,11 @@ theme     = "ananke"
     name = "Blog"
     url = "/posts/"
     weight = 2
+  [[menu.main]]
+  name = "Hack The Box"
+  url = "/hackthebox/"
+  weight = 30
+
 
 [markup]
   [markup.goldmark]
