@@ -18,14 +18,12 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
   </a>
 </div>
 
+### 🛡️ Team TrackHackers
+
+<div align="center">
+  <a href="https://app.hackthebox.com/teams/7382" target="_blank">
+    <img src="https://www.hackthebox.com/badge/team/image/7382" alt="Hack The Box Team Badge">
+  </a>
+</div>
+
 ---
-
-Expect:
-- Machine walkthroughs 🔐  
-- OSINT, web and other challange trickery 🕵️  
-- Tips and Tricks 💣  
-- Possibly other stuff.
-
-Stay sharp, and don’t trust port 1337.
-
-💀
