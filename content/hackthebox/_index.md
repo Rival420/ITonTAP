@@ -3,7 +3,7 @@ title: "Hack The Box"
 description: "Brain dumps, walkthroughs, and random pwning logs from my Hack The Box adventures."
 ---
 
-Welcome to my cozy little infodump corner 🧠💥  
+Welcome to my infodump corner 🧠💥  
 Here you'll find notes, walkthroughs, weird tricks, and other echoes of chaos from my time on [Hack The Box](https://hackthebox.com).
 
 Whether it’s rooted boxes or infuriating challenge puzzles — it all lives here.
