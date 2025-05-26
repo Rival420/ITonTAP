@@ -1,5 +1,6 @@
 ---
 title: "Administrator"
+slug: administrator
 date: 2025-06-26
 tags: ["Windows", "AD", "DCSync", "hashcat", "targetedkerberoarsting", "evil-winrm"]
 draft: false
