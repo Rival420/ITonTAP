@@ -27,3 +27,13 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
 </div>
 
 ---
+
+<div class="cards-grid">
+  <a href="/hackthebox/machines" class="card-link">
+    Machines
+    <div class="card-desc">Write-ups on the latest (retired) boxes of HackTheBox.</div>
+  </a>
+  <a href="/hackthebox/challenges" class="card-link">
+    Challenges
+    <div class="card-desc">Write-ups on challenges for HackTheBox</div>
+  </a>
