@@ -1,9 +1,6 @@
 ---
 title: "Hack The Box"
-date: 2025-05-25
 description: "Writeups and challenges from my Hack The Box adventures."
-type: section
-draft: false
 ---
 
 This section is where I drop notes, walkthroughs, and random thoughts while pwning machines and diving into challenges on [Hack The Box](https://hackthebox.com).
