@@ -1,14 +1,12 @@
 ---
 title: "Hack The Box"
 date: 2025-05-25
-description: "Writeups, challenges, and shell-hunting glory from my Hack The Box adventures."
+description: "Writeups and challenges from my Hack The Box adventures."
 type: section
 draft: false
 ---
 
 This section is where I drop notes, walkthroughs, and random thoughts while pwning machines and diving into challenges on [Hack The Box](https://hackthebox.com).
-
----
 
 ### 🧠 My Hack The Box Stats
 
@@ -22,7 +20,7 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
 
 <div align="center">
   <a href="https://app.hackthebox.com/public/teams/overview/5787" target="_blank">
-    <img src="https://app.hackthebox.com/public/teams/overview/5787">
+    My team "TrackHackers"
   </a>
 </div>
 
@@ -37,6 +35,7 @@ This section is where I drop notes, walkthroughs, and random thoughts while pwni
     Challenges
     <div class="card-desc">Write-ups on challenges for HackTheBox</div>
   </a>
+  
 <style>
 .cards-grid {
   display: grid;
