@@ -1,13 +1,7 @@
 ---
 title: Administrator
 date: 2025-06-26
-tags:
-  - Windows
-  - AD
-  - DCSync
-  - hashcat
-  - targetedkerberoarsting
-  - evil-winrm
+tags: ["Windows", "AD", "DCSync", "hashcat", "targetedkerberoarsting", "evil-winrm"]
 draft: false
 ---
 ![[Administrator.png]]
