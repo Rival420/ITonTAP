@@ -4,18 +4,34 @@ title     = "ITonTAP Home"
 theme     = "ananke"
 
 [menu]
+
   [[menu.main]]
     name = "Podcast"
     url = "/podcast/"
     weight = 1
+
   [[menu.main]]
     name = "Blog"
     url = "/posts/"
     weight = 2
+
   [[menu.main]]
-  name = "Hack The Box"
-  url = "/hackthebox/"
-  weight = 30
+    name = "Hack The Box"
+    url = "/hackthebox/"
+    weight = 3
+    identifier = "htb"   # Unique identifier for this parent
+
+  [[menu.main]]
+    name = "Challenges"
+    url = "/hackthebox/challenges/"
+    weight = 4
+    parent = "htb"       # This makes it a submenu under Hack The Box
+
+  [[menu.main]]
+    name = "Machines"
+    url = "/hackthebox/machines/"
+    weight = 5
+    parent = "htb"       # This makes it a submenu under Hack The Box
 
 
 [markup]
