@@ -183,7 +183,7 @@ with the following command I have gathered data about the target domain.
 
 once Ingested into Bloodhound I can do some graph analysis.
 I start by looking into the `olivia`
-![Pasted image 20250103172623.png](/images/hackthebox/machines/administrator/Pasted image 20250103172623.png)
+![Pasted image 20250103172623.png](/images/hackthebox/machines/administrator/Pasted\ image\ 20250103172623.png)
 
 in Pathfinding I can see the following:
 ![Pasted image 20250103172908.png](/images/hackthebox/machines/administrator/Pasted image 20250103172908.png)
