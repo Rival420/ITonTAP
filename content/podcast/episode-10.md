@@ -1,12 +1,12 @@
 ---
-title: "E10 - Cracking the Code on Software Security"
+title: "E10 - The Imperial Blond SBOM"
 date: 2025-06-01T00:00:00+00:00
 description: "Nick and Pieter break down how insecure code leads to vulnerabilities, explore static vs. dynamic analysis, and sip a Duvel Imperial Blond while stressing the importance of an SBOM."
 tags: ["podcast", "software security", "SBOM", "static analysis", "dynamic analysis", "beer"]
 draft: false
 ---
 
-# Episode 10: Cracking the Code on Software Security
+# Episode 10: The Imperial Blond SBOM
 
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/72Lg1LJObyqs6fffosJG9M?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
