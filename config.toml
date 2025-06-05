@@ -41,3 +41,6 @@ theme     = "ananke"
     [markup.goldmark.parser]
       attribute = true
 
+[params]
+  customCSS = ["css/terminal.css"]
+
