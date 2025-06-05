@@ -1,7 +1,7 @@
 ---
 title: "Administrator"
 slug: administrator
-date: 2025-06-26
+date: 2025-06-02
 tags: ["Windows", "AD", "DCSync", "hashcat", "targetedkerberoarsting", "evil-winrm"]
 draft: false
 ---
