@@ -183,16 +183,16 @@ with the following command I have gathered data about the target domain.
 
 once Ingested into Bloodhound I can do some graph analysis.
 I start by looking into the `olivia`
-![Pasted image 20250103172623.png](/images/hackthebox/machines/administrator/Pasted\ image\ 20250103172623.png)
+![Pasted image 20250103172623.png](/images/hackthebox/machines/administrator/pasted-image-20250103172623.png)
 
 in Pathfinding I can see the following:
-![Pasted image 20250103172908.png](/images/hackthebox/machines/administrator/Pasted image 20250103172908.png)
+![Pasted image 20250103172908.png](/images/hackthebox/machines/administrator/pasted-image-20250103172908.png)
 
 But since this session is not administrator session I cannot dump the credentials of the DC to Perform a DCSync attack.
 let's look for something else
 
 Apparently, Olivia has `GenericAll` Over the Michael user in this domain.
-![Pasted image 20250103173116.png](/images/hackthebox/machines/administrator/Pasted image 20250103173116.png)
+![Pasted image 20250103173116.png](/images/hackthebox/machines/administrator/pasted-image-20250103173116.png)
 
 This means I can change Michaels' password and become Michael
 
@@ -227,7 +227,7 @@ What can Michael do?
 
 I'll check bloodhound again.
 by looking at the 'OutBound Object Control' I see the following
-![Pasted image 20250103173357.png](/images/hackthebox/machines/administrator/Pasted image 20250103173357.png)
+![Pasted image 20250103173357.png](/images/hackthebox/machines/administrator/pasted-image-20250103173357.png)
 #### Lateral Movement Michael to Benjamin
 So yet another password I can change. let's go
 ```
@@ -320,7 +320,7 @@ Session completed.
 ```
 
 `tekieromucho` is the password
-![Pasted image 20250103180257.png](/images/hackthebox/machines/administrator/Pasted image 20250103180257.png)
+![Pasted image 20250103180257.png](/images/hackthebox/machines/administrator/pasted-image-20250103180257.png)
 
 From bloodhound I can tell that Emily is the most interesting person so let's continue with her :)
 
@@ -346,7 +346,7 @@ Info: Establishing connection to remote endpoint
 # ROOT
 
 Looking at `Bloodhound` again I can see a clear path to domain admin now.
-![Pasted image 20250104143152.png](/images/hackthebox/machines/administrator/Pasted image 20250104143152.png)
+![Pasted image 20250104143152.png](/images/hackthebox/machines/administrator/pasted-image-20250104143152.png)
 
 so Emily has GenericWrite over Ethan, and Ethan has DCSync permissions.
 Easy.
