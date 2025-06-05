@@ -3,6 +3,9 @@ languageCode = "en-us"
 title     = "ITonTAP Home"
 theme     = "ananke"
 
+[build]
+  buildFuture = true
+
 [menu]
 
   [[menu.main]]
