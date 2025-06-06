@@ -6,7 +6,7 @@ tags: ["Windows", "AD", "ADCS-ESC9", "bloodhound", "locksmith", "certipy", "nete
 draft: false
 ---
 
-![Certified](static/images/hackthebox/machines/certified/Certified.png)
+![Certified](/images/hackthebox/machines/certified/Certified.png)
 
 > **Note:** As is common in Windows pentests, you will start the Certified box with credentials for the following account: Username: judith.mader Password: judith09
 
