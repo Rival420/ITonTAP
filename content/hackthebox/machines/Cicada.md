@@ -588,12 +588,3 @@ PS C:\> type C:\Temp\root.txt
 why? because as Emily, I own this backup file.
 
 Rooted.
-
-#windows
-#AD
-#RID-Bruteforce
-#SeBackupPrivilege
-#anonymoussessions
-#netexec
-#smbclient
-#rpcclient
