@@ -4,7 +4,7 @@ slug: Chemistry
 date: 2025-01-03
 tags: ["Linux", "InsecureFileUpload", "LFI", "aiohttp", "tunneling"]
 draft: false
-summary: "An easy Linux box where insecure file upload can be abused to get reverse shell. privilege escalation is done by tunneling a locally available webservice and exploiting aiohttp could grant you root."
+summaryLength: 40
 ---
 
 ![Chemistry.png](/images/hackthebox/machines/chemistry/Chemistry.png)
