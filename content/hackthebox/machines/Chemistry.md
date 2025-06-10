@@ -17,6 +17,7 @@ draft: false
 
 # Initial Enumeration
 As always I start off with a simple full port scan followed by a more detailed targetted port scan
+
 ```bash
 #all ports
 nmap -p- chemistry.htb
