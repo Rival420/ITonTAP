@@ -324,7 +324,7 @@ smb: \> exit
 ```
 
 unfortunately this xlsx file seems broken when I tried to open it using legitimate tools
-![Pasted image 20250115143220.png](/images/hackthebox/machines/escapetwo/Pasted image 20250115143220.png)
+![Pasted image 20250115143220.png](/images/hackthebox/machines/escapetwo/pasted-image-20250115143220.png)
 
 So the good old unzipping trick might reveal some more information.
 
@@ -491,9 +491,9 @@ First a lateral movement to User `CA_SVC` and then `ESC4` technique to `Domain A
 ### Lateral Movement to `CA_SVC`
 
 `ryan` has `WriteOwner` Permissions over the `CA_SVC` user. 
-![[Pasted image 20250115183611.png]]
+![Pasted image 20250115183611.png](/images/hackthebox/machines/escapetwo/pasted-image-20250115183611.png)
 
-Similar to [[Writeup-Certified#Privilege Escalation Pt.1]] we will abuse this `writeowner` using impacket tools.
+Similar to ![Certified#Privilege Escalation Pt.1] we will abuse this `writeowner` using impacket tools.
 
 #### Change ownership for object ca_svc
    ```bash
@@ -533,7 +533,7 @@ The [+] indicates that it worked!
 
 I automated the above process in a script at my [github repo](https://github.com/Rival420/Abuse-WriteOwner)
 
-![[Pasted image 20250116105906.png]]
+![Pasted image 20250116105906.png](/images/hackthebox/machines/escapetwo/pasted-image-20250116105906.png)
 Could be useful for future pwnings as we see this `WriteOwner` Privilege quite a lot.
 
 ## Privilege Escalation Pt.3
@@ -541,7 +541,7 @@ Could be useful for future pwnings as we see this `WriteOwner` Privilege quite a
 
 Bloodhound is again providing a lot of useful info here.
 we can abuse Escalation Technique 4 from the ADCS Powning.
-![[Pasted image 20250115190707.png]]
+![Pasted image 20250115190707.png](/images/hackthebox/machines/escapetwo/pasted-image-20250115190707.png)
 
 For more information please check [ly4k's github repo](https://github.com/ly4k/Certipy?tab=readme-ov-file#esc4)
 
@@ -667,7 +667,7 @@ Template: `DunderMifflinAuthentication`
 
 Because as `ca_Svc`, I own this template,
 seen in the json above:
-![[Pasted image 20250116114717.png]]
+![Pasted image 20250116114717.png](/images/hackthebox/machines/escapetwo/pasted-image-20250116114717.png)
 
 I can change whatever I want. 
 so I'm gonna make this template vulnerable to ESC1.
