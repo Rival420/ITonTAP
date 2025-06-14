@@ -46,4 +46,5 @@ theme     = "ananke"
 
 [params]
   customCSS = ["css/terminal.css"]
+  customJS = ["js/codeblock.js"]
 
