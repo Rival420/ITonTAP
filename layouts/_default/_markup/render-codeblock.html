@@ -1,5 +1,4 @@
 {{- $lang := .Type | default "text" -}}
 <div class="codeblock" data-lang="{{ $lang }}">
-  <span class="codeblock-lang">{{ $lang | upper }}</span>
   {{- highlight .Inner $lang "" | safeHTML -}}
 </div>
