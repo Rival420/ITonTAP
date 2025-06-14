@@ -4,7 +4,7 @@ slug: "escapetwo"
 tags: ["Windows", "Easy", "AD", "mssqlclient", "ADCS-ESC4", "writeowner", "smbclient", "netexec", "passwordspray", "Windows", "impacket", "RID-Bruteforce", "certipy", "bloodhound"]
 draft: false
 ---
-![EscapeTwo.png](/images/hackthebox/machines/escapetwo/escapetwo.png)
+![EscapeTwo.png](/images/hackthebox/machines/escapetwo/EscapeTwo.png)
 
 > [!note] Machine Information
 > As is common in real life Windows pentests, you will start this box with credentials for the following account: rose / KxEPkKe6R8su
@@ -324,7 +324,7 @@ smb: \> exit
 ```
 
 unfortunately this xlsx file seems broken when I tried to open it using legitimate tools
-![[Pasted image 20250115143220.png]]
+![Pasted image 20250115143220.png](/images/hackthebox/machines/escapetwo/Pasted image 20250115143220.png)
 
 So the good old unzipping trick might reveal some more information.
 
