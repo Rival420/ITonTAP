@@ -6,6 +6,7 @@
   overflow: hidden;
   position: relative;
   margin: 1em 0;
+  border: 1px solid #444;
 }
 
 .codeblock-header {
@@ -13,7 +14,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 0.4em 0.8em;
-  background-color: #1e1e1e;
+  background-color: #2b2b2b;
   border-bottom: 1px solid #444;
 }
 
@@ -46,4 +47,5 @@
   margin: 0;
   padding: 1em;
   overflow-x: auto;
+  overflow-y: hidden;
 }

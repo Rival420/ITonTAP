@@ -1,7 +1,7 @@
 {{- $lang := .Language | default "text" -}}
-<div class="codeblock">
+<div class="codeblock" data-lang="{{ $lang }}">
   <div class="codeblock-header">
-    <span class="codeblock-lang">{{ $lang }}</span>
+  <span class="codeblock-lang">{{ $lang | upper }}</span>
     <button class="copy-btn" type="button">Copy</button>
   </div>
   {{- highlight .Inner $lang "" | safeHTML -}}
