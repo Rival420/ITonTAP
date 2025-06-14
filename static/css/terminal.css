@@ -1,20 +1,49 @@
-pre {
+.codeblock {
   background-color: #1e1e1e;
   color: #c5c8c6;
-  padding: 1.5em 1em 1em;
   border-radius: 5px;
-  overflow-x: auto;
   font-family: "Courier New", Courier, monospace;
+  overflow: hidden;
   position: relative;
+  margin: 1em 0;
 }
-pre::before {
+
+.codeblock-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em 0.8em;
+  background-color: #1e1e1e;
+  border-bottom: 1px solid #444;
+}
+
+.codeblock-header::before {
   content: "";
-  position: absolute;
-  top: 0.5em;
-  left: 0.75em;
+  display: inline-block;
   width: 0.6em;
   height: 0.6em;
   border-radius: 50%;
   background: #ff5f56;
-  box-shadow: 0.9em 0 0 0 #ffbd2e, 1.8em 0 0 0 #27c93f;
+  box-shadow: 0.8em 0 0 #ffbd2e, 1.6em 0 0 #27c93f;
+  margin-right: 0.75em;
+}
+
+.codeblock-lang {
+  font-size: 0.8em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.copy-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+
+.codeblock pre {
+  margin: 0;
+  padding: 1em;
+  overflow-x: auto;
 }
