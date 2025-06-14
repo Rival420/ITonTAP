@@ -2,7 +2,6 @@
 <div class="codeblock" data-lang="{{ $lang }}">
   <div class="codeblock-header">
     <span class="codeblock-lang">{{ $lang | upper }}</span>
-    <button class="copy-btn" type="button" aria-label="Copy code">Copy</button>
   </div>
   {{- highlight .Inner $lang "" | safeHTML -}}
 </div>
