@@ -4,7 +4,7 @@ slug: "escapetwo"
 tags: ["Windows", "Easy", "AD", "mssqlclient", "ADCS-ESC4", "writeowner", "smbclient", "netexec", "passwordspray", "Windows", "impacket", "RID-Bruteforce", "certipy", "bloodhound"]
 draft: false
 ---
-![[EscapeTwo.png]]
+![EscapeTwo.png](/images/hackthebox/machines/escapetwo/escapetwo.png)
 
 > [!note] Machine Information
 > As is common in real life Windows pentests, you will start this box with credentials for the following account: rose / KxEPkKe6R8su
