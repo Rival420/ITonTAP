@@ -2,7 +2,7 @@
 title: "EscapeTwo"
 slug: "escapetwo"
 tags: ["Windows", "Easy", "AD", "mssqlclient", "ADCS-ESC4", "writeowner", "smbclient", "netexec", "passwordspray", "Windows", "impacket", "RID-Bruteforce", "certipy", "bloodhound"]
-date: 11-01-2025
+date: 2025-01-11
 draft: false
 ---
 ![EscapeTwo.png](/images/hackthebox/machines/escapetwo/EscapeTwo.png)
