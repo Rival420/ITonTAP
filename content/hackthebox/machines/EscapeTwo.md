@@ -1,7 +1,7 @@
 ---
 title: "EscapeTwo"
 slug: "escapetwo"
-tags: ["Windows", "Easy", "AD", "mssqlclient", "ADCS"-ESC4", "writeowner", "smbclient", "netexec", "passwordspray", "Windows", "impacket", "RID-Bruteforce", "certipy", "bloodhound"]
+tags: ["Windows", "Easy", "AD", "mssqlclient", "ADCS-ESC4", "writeowner", "smbclient", "netexec", "passwordspray", "Windows", "impacket", "RID-Bruteforce", "certipy", "bloodhound"]
 draft: false
 ---
 ![[EscapeTwo.png]]
