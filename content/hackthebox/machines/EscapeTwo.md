@@ -7,7 +7,7 @@ draft: false
 ---
 ![EscapeTwo.png](/images/hackthebox/machines/escapetwo/EscapeTwo.png)
 
-> [!note] Machine Information
+> **Note: Machine Information
 > As is common in real life Windows pentests, you will start this box with credentials for the following account: rose / KxEPkKe6R8su
 
 # Summary
