@@ -2,7 +2,7 @@
 title: "E11 - Privacy, Plans And The Warrior's Rest"
 date: 2025-07-01T00:00:00+00:00
 description: "Nick and Pieter discuss digital privacy, look ahead to Year 2, unveil a new website, and sip Barbar honey ale."
-tags: ["podcast", "privacy", "planning", "year 2", "beer"]
+tags: ["podcast", "privacy", "planning", "beer"]
 draft: false
 ---
 
@@ -14,7 +14,7 @@ draft: false
 
 In Episode 11 of IT on TAP, Nick and Pieter explore the increasingly important topic of digital privacy—what it is, how your data is being used, and simple steps you can take to be more privacy-minded in your everyday tech life.
 
-We also take a moment to reflect on how far the podcast has come and share our thoughts and plans as we look ahead to Year 2 of IT on TAP. Plus, we unveil our freshly updated website: www.itontap.tech—check it out!
+We also take a moment to reflect on how far the podcast has come and share our thoughts and plans as we look ahead to Year 2 of IT on TAP. Plus, we unveil our freshly updated website: https://www.itontap.tech —check it out!
 
 ---
 
