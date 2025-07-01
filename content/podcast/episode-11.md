@@ -6,8 +6,6 @@ tags: ["podcast", "privacy", "planning", "beer"]
 draft: false
 ---
 
-# Episode 11: Privacy, Plans And The Warrior's Rest
-
 <iframe style="border-radius:12px" src="https://open.spotify.com/embed/episode/3JOxdLgsuel39jkbVcUw2N?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
 
 ## Episode Summary
