@@ -2,7 +2,7 @@
 title: "E11 - Privacy, Plans And The Warrior's Rest"
 date: 2025-07-01T00:00:00+00:00
 description: "Nick and Pieter discuss digital privacy, look ahead to Year 2, unveil a new website, and sip Barbar honey ale."
-tags: ["podcast", "privacy", "planning", "beer"]
+tags: ["podcast", "privacy", "beer", "end-to-end encryption"]
 draft: false
 ---
 
